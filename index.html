@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+  <head>
+    <title>Let's Make A Deal!</title>
+    <link href='./style.css' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type='text/css'>
+    <script type="text/javascript" src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/4fae63f47b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class="header">
+      <img src="Media/3d_tsla_img.jpg">
+    </div>
+
+    <div class="first-row">
+     <p class="instructions-title">How to Play</p>
+    </div>
+
+    <table class="second-row">
+      <tr>
+        <td class="instructions-number">1</td>
+        <td class="instructions-text">Will you win a new car?</td>
+      </tr>
+      <tr>
+        <td class="instructions-number">2</td>
+        <td class="instructions-text">Find the car and avoid the goats.</td>
+      </tr>
+      <tr>
+        <td class="instructions-number">3</td>
+        <td class="instructions-text">If you manage to avoid the goats until the very last door, you win!</td>
+      </tr>
+      <tr>
+        <td class="instructions-number">4</td>
+        <td class="instructions-text">See if you can score a winning streak!</td>
+      </tr>
+    </table>
+
+    <div class="door-row">
+      <img class="door-frame" src="Media/closed_door.svg" id="door1">
+      <img class="door-frame" src="Media/closed_door.svg" id="door2">
+      <img class="door-frame" src="Media/closed_door.svg" id="door3">
+    </div>
+
+    <div class="start-row" id="start">Let's Play!</div>
+
+    <table class="score-row">
+      <tr>
+        <th class="score-text">Current streak:</th>
+        <th class="score-text">Best streak:</th>
+      </tr>
+      <tr>
+        <th class="score-box" id="score-number"></th>
+        <th class="score-box" id="high-score-number"></th>
+      <tr>
+    </table>
+
+    
+
+  </body>
+</html>
